@@ -1,0 +1,50 @@
+
+<!-- Bedirhan Efe Akkuş-->
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayıt Ol</title>
+</head>
+<body>
+  <h1>Hesap Oluştur</h1>
+
+  <form action="/login.html">
+    <!-- Ad Soyad bölümü-->
+    <div>
+      <label for="fullname">Ad Soyad</label><br>
+      <input type="text" id="fullname" name="fullname" placeholder="Adınızı ve soyadınızı girin" required>
+    </div>
+    <br>
+
+    <!-- E-posta bölümü -->
+    <div>
+      <label for="email">E-posta</label><br>
+      <input type="email" id="email" name="email" placeholder="ornek@mail.com" required>
+    </div>
+    <br>
+
+    <!-- Şifre bölümü -->
+    <div>
+      <label for="password">Şifre</label><br>
+      <input type="password" id="password" name="password" placeholder="Şifrenizi girin" required>
+    </div>
+    <br>
+
+    <!-- Şifreyi Onayla bölümü -->
+    <div>
+      <label for="confirm-password">Şifreyi Onayla</label><br>
+      <input type="password" id="confirm-password" name="confirm-password" placeholder="Şifrenizi tekrar girin" required>
+    </div>
+    <br>
+
+    <!-- Gönder Butonu -->
+    <button type="submit">Kayıt Ol</button>
+  </form>
+
+  <p>Zaten bir hesabın var mı? <a href="login.html">Giriş Yap</a></p>
+
+</body>
+</html>
