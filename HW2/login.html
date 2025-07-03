@@ -1,0 +1,38 @@
+<!-- Bedirhan Efe Akkuş -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giriş Yap</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Giriş Yap</h1>
+    <form action="/signup.html">
+      <div>
+        <label for="email">E-posta</label><br>
+        <input type="email" id="email" name="email" placeholder="ornek@mail.com" required>
+      </div>
+
+      <div>
+        <label for="password">Şifre</label><br>
+        <input type="password" id="password" name="password" placeholder="Şifrenizi girin" required>
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="benihatirla" />
+        <label for="benihatirla">Beni hatırla</label>
+      </div>
+
+      <button type="submit">Gönder</button>
+    </form>
+
+    <p>Hesabın yok mu? <a href="signup.html">Kayıt Ol!</a></p>
+  </div>
+
+</body>
+</html>

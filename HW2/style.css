@@ -1,0 +1,106 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D8E9FD; 
+  font-family: 'League Spartan', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  transition: 0.3s ease;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+h1 {
+  color: #03254E;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+label {
+  position: relative;
+  bottom: 10px;
+  font-size: 15px;
+  color: #03254E;
+}
+
+input{
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s ease;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+input:focus {
+  border-color: #03254E;
+  outline: none;
+  transform: scale(1.1);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#benihatirla {
+  margin-right: 8px;
+  width: fit-content;
+
+}
+
+/* Buton */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #03254E;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition:0.3s ease;
+}
+
+button:hover {
+  background-color: #064c9b;
+  transform: scale(1.1);
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+p a {
+  color: #03254E;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
