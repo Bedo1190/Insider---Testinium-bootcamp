@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community</title>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Community</div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#anasayfa">Ana Sayfa</a></li>
+        <li><a href="#karakterler">Karakterler</a></li>
+        <li><a href="#bolumler">Bölümler</a></li>
+        <li><a href="#hakkinda">Hakkında</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="anasayfa" class="hero">
+      <h1>Community</h1>
+      <div class="mainpart">
+        <h2 >Genel Bakış</h2>
+        <img id="poster" src="https://m.media-amazon.com/images/S/pv-target-images/25249aa750979320d01bd8c55adb0e44fd86ac2521c798287278c8429ccd3a46.jpg" alt="Community Banner" />
+        <p>
+          Community, bir grup farklı geçmişe sahip öğrencinin Greendale Community College'da yollarının kesişmesini konu alan bir komedi dizisidir. Dizide avukatlık lisansı iptal edilen Jeff Winger, diplomayı gerçekten almak için okula döner ve burada Britta, Abed, Troy, Annie, Shirley ve Pierce ile tanışır. Zekice yazılmış diyaloglar, kültürel referanslar, absürt mizah ve parodi bölümleriyle dikkat çeker. Karakterlerin zamanla gelişimi ve aralarındaki dinamik, diziyi yalnızca eğlenceli değil aynı zamanda duygusal da kılar.
+        </p>
+        <div class="toIMDB"><a href="https://www.imdb.com/title/tt1439629/">IMDB sayfasına git</a></div>
+
+      </div>
+      <div class="mainpart">
+        <h2 >En sevdiğim sahne</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xXJJKq2v4d4?si=KkwtZjStRdKX94w3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Community dizisinin ikonik paintball bölümlerinden birinde Ben Chang, elinde ağır makineli paintball silahıyla sınıfa adeta aksiyon filmi havasında girer. Ağır çekimde, havalı güneş gözlükleri ve siyah deri ceketiyle odaya dalan Chang, hiçbir uyarı yapmadan Jeff ve Britta’ya paintball mermileri yağdırır. Bu sahne, klasik aksiyon klişelerini alıp absürt bir kampüs ortamında yeniden canlandırarak büyük bir kontrast yaratır. Mizah, Chang’in kendini aşırı ciddiye alan tavırlarıyla ortamın anlamsızlığı arasında oluşan tezat sayesinde ortaya çıkar. Sahne hem bir parodi, hem de karakterin kaotik kişiliğinin mükemmel bir yansımasıdır.</p>
+      </div>
+    </section>
+    <section id="karakterler" class="characters">
+  <h2>Karakterler</h2>
+  <div class="character-list-wrapper" id="character-list-wrapper">
+    <div class="character-list">
+      <div class="character-card"><div class="character-image"><img src="https://placehold.co/300x300?text=Jeff" alt="Jeff Winger"></div><div class="character-info"><h3>Jeff Winger</h3><p>Avukat, karizmatik.</p><button>Favorilere Ekle</button></div></div>
+      <div class="character-card"><div class="character-image"><img src="https://placehold.co/300x300?text=Britta" alt="Britta Perry"></div><div class="character-info"><h3>Britta Perry</h3><p>Aktivist, özgür ruh.</p><button>Favorilere Ekle</button></div></div>
+      <div class="character-card"><div class="character-image"><img src="https://placehold.co/300x300?text=Abed" alt="Abed Nadir"></div><div class="character-info"><h3>Abed Nadir</h3><p>Meta mizah ustası.</p><button>Favorilere Ekle</button></div></div>
+      <div class="character-card"><div class="character-image"><img src="https://placehold.co/300x300?text=Troy" alt="Troy Barnes"></div><div class="character-info"><h3>Troy Barnes</h3><p>Atlet, komik ve sadık.</p><button>Favorilere Ekle</button></div></div>
+
+        <div class="character-card extra-card"><div class="character-image"><img src="https://placehold.co/300x300?text=Annie" alt="Annie Edison"></div><div class="character-info"><h3>Annie Edison</h3><p>Çalışkan ve zeki.</p><button>Favorilere Ekle</button></div></div>
+        <div class="character-card extra-card"><div class="character-image"><img src="https://placehold.co/300x300?text=Shirley" alt="Shirley Bennett"></div><div class="character-info"><h3>Shirley Bennett</h3><p>Anne ve girişimci.</p><button>Favorilere Ekle</button></div></div>
+        <div class="character-card extra-card"><div class="character-image"><img src="https://placehold.co/300x300?text=Pierce" alt="Pierce Hawthorne"></div><div class="character-info"><h3>Pierce Hawthorne</h3><p>Yaşlı, zengin ve problemli.</p><button>Favorilere Ekle</button></div></div>
+        <div class="character-card extra-card"><div class="character-image"><img src="https://placehold.co/300x300?text=Dean" alt="Dean Pelton"></div><div class="character-info"><h3>Dean Pelton</h3><p>Okul yöneticisi, kostüm delisi.</p><button>Favorilere Ekle</button></div></div>
+    </div>
+  </div>
+  <div class="line">
+    <button id="toggle-button">Daha Fazla Göster ⬇</button>
+  </div>
+</section>
+
+    <section id="bolumler" class="episodes">
+      <h2>Bölümler</h2>
+      <div class="episode-list">
+          <div class="episode-card">
+            <div class="episode-image">
+              <img src="https://placehold.co/300x300?text=AD&D" alt="Advanced Dungeons and Dragons">
+            </div>
+            <div class="character-info">
+              <h3>Advanced Dungeons and Dragons</h3>
+              <p>Grup, depresyondaki bir öğrenciyi kurtarmak için destansı bir D&D oyunu oynar.</p>
+              <div class="toIMDB"><a href="https://www.imdb.com/title/tt1824317/?ref_=ttep_ep_14">IMDB sayfasına git</a></div>
+            </div>
+          </div>
+          <div class="episode-card">
+            <div class="episode-image">
+              <img src="https://placehold.co/300x300?text=Paintball" alt="A Fistful of Paintballs">
+            </div>
+            <div class="character-info">
+              <h3>A Fistful of Paintballs</h3>
+              <p>Greendale, vahşi batı tarzı paintball turnuvasıyla yeniden kaosa sürüklenir.</p>
+              <div class="toIMDB"><a href="https://www.imdb.com/title/tt1640867/?ref_=ttep_ep_23">IMDB sayfasına git</a></div>
+            </div>
+          </div>
+          <div class="episode-card">
+            <div class="episode-image">
+              <img src="https://placehold.co/300x300?text=Modern+Warfare" alt="Modern Warfare">
+            </div>
+            <div class="character-info">
+              <h3>Modern Warfare</h3>
+              <p>Okulda başlayan paintball oyunu, tam anlamıyla bir savaş alanına dönüşür.</p>
+              <div class="toIMDB"><a href="https://www.imdb.com/title/tt1595996/?ref_=ttep_ep_23">IMDB sayfasına git</a></div>
+            </div>
+          </div>
+          <div class="episode-card">
+            <div class="episode-image">
+              <img src="https://placehold.co/300x300?text=Paintballs+More" alt="For a Few Paintballs More">
+            </div>
+            <div class="character-info">
+              <h3>For a Few Paintballs More</h3>
+              <p>Turnuva bilim kurgu havasına bürünürken, grup birlik olmak zorunda kalır.</p>
+              <div class="toIMDB"><a href="https://www.imdb.com/title/tt1862636/?ref_=ttep_ep_24">IMDB sayfasına git</a></div>
+            </div>
+          </div>
+          <div class="episode-card">
+            <div class="episode-image">
+              <img src="https://placehold.co/300x300?text=Chaos+Theory" alt="Remedial Chaos Theory">
+            </div>
+            <div class="character-info">
+              <h3>Remedial Chaos Theory</h3>
+              <p>Bir zar atışı, karakterlerin 7 farklı gerçeklikte nasıl değiştiğini gösterir.</p>
+              <div class="toIMDB"><a href="https://www.imdb.com/title/tt2060963/?ref_=ttep_ep_4">IMDB sayfasına git</a></div>
+            </div>
+          </div>
+    </section>
+  </main>
+
+  <footer>
+    <section id="hakkinda" class="about">
+      <h2>Hakkında</h2>
+      <p>Bu sayfa, <strong>Bedirhan Efe Akkuş</strong> tarafından oluşturulmuştur.</p>
+     <div class="socials">
+        <ul>
+          <li class="social">
+            <a href="https://www.linkedin.com/in/bedirhan-efe-akku%C5%9F-710581275/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li class="social">
+            <a href="https://github.com/Bedo1190" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li class="social">
+            <a href="https://instagram.com/bedo1190" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
