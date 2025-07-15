@@ -1,0 +1,127 @@
+    body {
+      background: #f5f6fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .add-options{
+        display: flex;
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    h2 {
+      color: #2d3436;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+      padding: 30px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: fit-content;
+      align-self: center;
+      border-radius: 1em;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    input[type="text"], select {
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    #searchInput {
+      width: 300px;
+      padding: 8px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      align-self: center;
+      margin: 20px auto;
+      display: block;
+    }
+
+    button {
+      padding: 8px 12px;
+      font-size: 14px;
+      color: #fff;
+      background: #0984e3;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #74b9ff;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 20px;
+      justify-content: center;
+    }
+
+    .student-card {
+      background: #fff;
+      width: 300px;
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      transition: 0.3s ease;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .student-card.clicked {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+      background: #dfe6e9;
+    }
+
+    .student-card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      color: #2d3436;
+    }
+
+    .student-card p {
+      margin: 0 0 12px;
+      font-size: 14px;
+      color: #636e72;
+    }
+
+    .delete-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: transparent;
+      border: none;
+      font-size: 16px;
+      color: #d63031;
+      cursor: pointer;
+    }
+
+    .delete-btn:hover {
+      background-color: #d9d9d95d;
+    }
+
+    @media (max-width: 800px) {
+      .student-card { width: calc(50% - 10px); flex-grow: 1; }
+    }
+
+    @media (max-width: 500px) {
+      .student-card { width: 100%; flex-grow: 1; }
+    }

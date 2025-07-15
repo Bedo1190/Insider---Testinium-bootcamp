@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Öğrenci Kartları</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-group">
+    <h2>Yeni Öğrenci Ekle</h2>
+    <input type="text" id="nameInput" placeholder="İsim">
+    <div class="add-options">
+        <select id="classNumber">
+        <option value="">Sınıf No</option>
+        <option>1</option><option>2</option><option>3</option><option>4</option>
+        <option>5</option><option>6</option><option>7</option><option>8</option>
+        <option>9</option><option>10</option><option>11</option><option>12</option>
+        </select>
+
+        <select id="classLetter">
+        <option value="">Şube</option>
+        <option>A</option><option>B</option><option>C</option><option>D</option>
+        <option>E</option><option>F</option><option>G</option><option>H</option>
+        <option>I</option><option>J</option><option>K</option><option>L</option>
+        <option>M</option><option>N</option><option>O</option><option>P</option>
+        <option>Q</option><option>R</option><option>S</option><option>T</option>
+        <option>U</option><option>V</option><option>W</option><option>X</option>
+        <option>Y</option><option>Z</option>
+        </select>
+    </div>
+
+    <button id="addStudentBtn">Ekle</button>
+  </div>
+
+  <input type="text" id="searchInput" placeholder="İsim veya sınıf ara...">
+
+  <h2>Öğrenci Kartları</h2>
+  <div class="card-container" id="cardContainer">
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
